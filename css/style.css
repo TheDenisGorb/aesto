@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black; 
+    color: white;
+}
+
+.logo img {
+    max-height: 40px; 
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    font-size: large;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: inherit;
+}
+.nav-links li a:hover {
+    background-color: white; 
+    color: black;
+}
+.cart img {
+    max-height: 30px;
+}
