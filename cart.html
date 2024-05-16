@@ -4,11 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aesto | Cart</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/cart.css" />
   </head>
   <body>
-    <div>
-      Ви не додали жодного з годинників до корзини, можете
-      <a href="catalog.html">перейти до каталогу</a> та обрати хоча б один
+    <div class="wrapper">
+      <header>
+        <nav class="navbar">
+          <div class="logo">
+            <a href="main.html"
+              ><img src="images/image-removebg-preview.png" alt="Логотип"
+            /></a>
+          </div>
+          <ul class="nav-links">
+            <li><a href="main.html">Головна</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="contacts.html">Контакти</a></li>
+          </ul>
+          <div class="cart">
+            <a href="cart.html"
+              ><img src="images/cart-removebg-preview.png" alt="Корзина"
+            /></a>
+          </div>
+        </nav>
+        <hr />
+      </header>
+      <main class="cart__main">
+        <p>
+          Ви не додали жодного з годинників до корзини, можете
+          <a href="catalog.html">перейти до каталогу</a> та обрати хоча б один
+        </p>
+      </main>
+      <footer>
+        <p>&copy; 2024 Time Shop</p>
+      </footer>
     </div>
   </body>
 </html>
