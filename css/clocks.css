@@ -9,6 +9,11 @@
 .clocks__text {
   width: 50%;
 }
+.clocks__image img {
+  height: 100%;
+  width: 100%;
+  max-height: 450px;
+}
 
 .clocks__text {
   padding: 50px;
