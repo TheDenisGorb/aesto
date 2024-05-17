@@ -57,6 +57,7 @@ body {
 
 .main img {
   width: 50%;
+  object-fit: cover;
 }
 
 .main__text {
@@ -93,6 +94,21 @@ body {
 h3 {
   text-align: center;
   margin-bottom: 24px;
+}
+
+@media (max-width: 720px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .main img {
+    width: 100%;
+  }
+
+  .main__gallery {
+    flex-wrap: wrap;
+    row-gap: 12px;
+  }
 }
 
 @media (max-width: 620px) {
