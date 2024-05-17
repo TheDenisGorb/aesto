@@ -115,4 +115,8 @@ h3 {
   .navbar {
     flex-direction: column;
   }
+
+  .main__text {
+    padding: 15px;
+  }
 }

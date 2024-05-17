@@ -20,6 +20,40 @@ main {
   margin: 0 auto;
 }
 
+.contacts__form {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts__form input {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contacts__form input,
+.contacts__form button {
+  box-sizing: border-box;
+  height: 40px;
+}
+
+.contacts__form button {
+  background: green;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  border: none;
+  outline: none;
+
+  transition: all 0.3s ease-in-out;
+}
+.contacts__form button:hover {
+  background: #005500;
+}
+
 @media (max-width: 840px) {
   .contacts__follow p,
   .contacts__find p {
